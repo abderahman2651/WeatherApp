@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             WeatherAppTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Android",
+                        nameeeee = "Android",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
@@ -31,9 +31,9 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
+fun Greeting(nameeeee: String, modifier: Modifier = Modifier) {
     Text(
-        text = "abderahman $name!",
+        text = "abderahman $nameeeee!",
         modifier = modifier
     )
 }
